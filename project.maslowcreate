@@ -10,8 +10,8 @@
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.1259150805270864,
-            "y": 0.4444444444444444,
+            "x": 0.11786237188872621,
+            "y": 0.26053639846743293,
             "uniqueID": 372686,
             "ioValues": [
                 {
@@ -27,28 +27,53 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.38799414348462663,
-            "y": 0.4367816091954023,
+            "x": 0.3323572474377745,
+            "y": 0.3486590038314176,
             "uniqueID": 691017,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 4
                 }
             ]
         },
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.5849194729136163,
-            "y": 0.32950191570881227,
+            "x": 0.5387994143484627,
+            "y": 0.25287356321839083,
             "uniqueID": 378449,
             "ioValues": [],
-            "selectedColorIndex": 0
+            "selectedColorIndex": "10"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.13396778916544655,
+            "y": 0.7126436781609194,
+            "uniqueID": 978344,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 3.5
+                }
+            ]
+        },
+        {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.6442166910688141,
+            "y": 0.3563218390804597,
+            "uniqueID": 176007,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "M3 Locknut",
+                "numberNeeded": 1,
+                "costUSD": 0.0352,
+                "source": "https://www.mcmaster.com/90576A102/",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "Output",
@@ -58,7 +83,35 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 372686,
+            "ap2ID": 691017
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 691017,
+            "ap2ID": 378449
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 378449,
+            "ap2ID": 176007
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 176007
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
