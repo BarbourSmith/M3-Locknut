@@ -27,8 +27,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.3323572474377745,
-            "y": 0.3486590038314176,
+            "x": 0.3535871156661786,
+            "y": 0.26053639846743293,
             "uniqueID": 691017,
             "ioValues": [
                 {
@@ -45,6 +45,14 @@
             "uniqueID": 378449,
             "ioValues": [],
             "selectedColorIndex": "10"
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.24890190336749635,
+            "y": 0.5478927203065134,
+            "uniqueID": 833347,
+            "ioValues": []
         },
         {
             "atomType": "Circle",
@@ -86,10 +94,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
             "ap1ID": 372686,
-            "ap2ID": 691017
+            "ap2ID": 833347
         },
         {
             "ap1Name": "geometry",
@@ -104,6 +112,20 @@
             "ap2Primary": true,
             "ap1ID": 378449,
             "ap2ID": 176007
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 833347,
+            "ap2ID": 691017
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 978344,
+            "ap2ID": 833347
         },
         {
             "ap1Name": "geometry",
