@@ -63,7 +63,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 3.5
+                    "ioValue": 3
                 }
             ]
         },
