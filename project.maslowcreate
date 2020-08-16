@@ -68,22 +68,6 @@
             ]
         },
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.6442166910688141,
-            "y": 0.3563218390804597,
-            "uniqueID": 176007,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "M3 Locknut",
-                "numberNeeded": 1,
-                "costUSD": 0.0352,
-                "source": "https://www.mcmaster.com/90576A102/",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -108,10 +92,9 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 378449,
-            "ap2ID": 176007
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 378449
         },
         {
             "ap1Name": "geometry",
@@ -126,12 +109,6 @@
             "ap2Primary": false,
             "ap1ID": 978344,
             "ap2ID": 833347
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 176007
         }
     ],
     "fileTypeVersion": 1,
