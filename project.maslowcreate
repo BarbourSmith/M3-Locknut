@@ -32,6 +32,10 @@
             "uniqueID": 691017,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/750038/833347Difference"
+                },
+                {
                     "name": "height",
                     "ioValue": 4
                 }
@@ -43,7 +47,12 @@
             "x": 0.5387994143484627,
             "y": 0.25287356321839083,
             "uniqueID": 378449,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/750038/691017Extrude"
+                }
+            ],
             "selectedColorIndex": "10"
         },
         {
@@ -52,7 +61,16 @@
             "x": 0.24890190336749635,
             "y": 0.5478927203065134,
             "uniqueID": 833347,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "atoms/750038/978344Circle"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "atoms/750038/372686RegularPolygon"
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -72,7 +90,13 @@
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
-            "ioValues": []
+            "uniqueID": 728792,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/750038/378449Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -94,7 +118,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 378449
+            "ap1ID": 378449,
+            "ap2ID": 728792
         },
         {
             "ap1Name": "geometry",
