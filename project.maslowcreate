@@ -33,7 +33,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/750038/833347Difference"
+                    "ioValue": "atoms/750038/372686RegularPolygon"
                 },
                 {
                     "name": "height",
@@ -111,6 +111,13 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
+            "ap1ID": 372686,
+            "ap2ID": 691017
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 691017,
             "ap2ID": 378449
         },
@@ -120,13 +127,6 @@
             "ap2Primary": false,
             "ap1ID": 378449,
             "ap2ID": 728792
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 833347,
-            "ap2ID": 691017
         },
         {
             "ap1Name": "geometry",
